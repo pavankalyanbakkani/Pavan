@@ -12,7 +12,7 @@ pipeline {
                 echo 'Bridr, eey'
                 echo 'Brer, Neey'
                 echo 'Bridgehhhey'
-                sh 'exit 1'
+                
               
              
                
