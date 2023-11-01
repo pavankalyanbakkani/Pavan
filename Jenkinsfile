@@ -9,8 +9,8 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Pavan kalyan bakkani'
-                echo 'Bridger, Neeeeeeeeeeeeeeeey'
-                echo 'Bridger, Neeebbbbeeeeeeeeey'
+                echo 'Bridger, eey'
+                echo 'Bridger, Neey'
                 echo 'Bridgehhhey'
                 sh 'exit 1'
              
@@ -28,16 +28,5 @@ pipeline {
         }
     }
 
-    post {
-        success {
-            script {
-               
-                    echo "ABD"
-                }
-            }
-        failure{
-            echo 'build has failed'
-    }
-        }
         
 }
