@@ -12,6 +12,7 @@ pipeline {
                 echo 'Bridr, eey'
                 echo 'Brerkkkkkkkkkkkkkkk, Neey'
                 echo 'Briey'
+                exit 1
                 
               
              
